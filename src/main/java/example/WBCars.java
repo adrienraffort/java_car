@@ -23,7 +23,7 @@ public class WBCars {
 
     public static void main(String[] args) {
         Object implementor = new WBCars();
-        String address = "http://localhost:9000/WBCars";
+        String address = "https://electric-car.herokuapp.com";
         Endpoint.publish(address, implementor);
     }
 }
